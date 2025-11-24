@@ -1,0 +1,37 @@
+{
+  "name": "flow-poup",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.10.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/test-utils": "^3.20.1",
+    "@pinia/nuxt": "^0.11.2",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "chart.js": "^4.5.1",
+    "eslint": "^9.39.0",
+    "gsap": "^3.13.0",
+    "nuxt": "^4.2.0",
+    "vue": "^3.5.22",
+    "vue-chartjs": "^5.3.2",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^2.6.5",
+    "@vue/test-utils": "^2.4.6",
+    "cypress": "^15.5.0",
+    "eslint-plugin-vue": "^10.5.1",
+    "jsdom": "^27.0.1",
+    "prettier": "^3.6.2",
+    "sass": "^1.93.3",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,33 @@
+$primary: #ea781a;
+$secondary: #f8c323;
+$tertiary: #ef233c;
+$black: #181818;
+$white: #f3f3f3;
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: radial-gradient($secondary, $primary);
+}
+
+::-webkit-scrollbar-track {
+  background: $black;
+}
+
+.primaryColor {
+  color: $primary;
+}
+.secondaryColor {
+  color: $secondary;
+}
+.tertiaryColor {
+  color: $tertiary;
+}
+.blackColor {
+  color: $black;
+}
+.whiteColor {
+  color: $white;
+}
